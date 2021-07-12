@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/fondosregistro"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TextView
+		android:text="Registrar Usuarios"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:gravity="center"
+		android:textSize="25dp"
+		android:layout_marginTop="20dp"
+		android:textColor="#ffffffff"
+		android:textStyle="bold"
+		android:layout_marginBottom="20dp" />
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="83.0dp"
+		android:id="@+id/linearLayout6">
+		<TextView
+			android:layout_width="66.0dp"
+			android:layout_height="82.5dp"
+			android:id="@+id/textView7"
+			android:layout_marginLeft="160dp"
+			android:layout_marginRight="160dp"
+			android:gravity="center"
+			android:background="@mipmap/persona" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="43dp"
+		android:id="@+id/linearLayout1"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:text="Nombre:"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2"
+			android:gravity="center"
+			android:textColor="#ffffffff"
+			android:layout_marginLeft="40dp" />
+		<EditText
+			android:inputType="textMultiLine"
+			android:layout_width="250.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/edt_Nombre"
+			android:textColor="#ffffffff"
+			android:layout_marginRight="40dp"  />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="43dp"
+		android:id="@+id/linearLayout2"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:text="Apellido:"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView3"
+			android:gravity="center"
+			android:textColor="#ffffffff"
+			android:layout_marginLeft="40dp" />
+		<EditText
+			android:inputType="textMultiLine"
+			android:layout_width="250.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/edt_Apellido"
+			android:textColor="#ffffffff"
+			android:layout_marginRight="40dp"  />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="43dp"
+		android:id="@+id/linearLayout3"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:text="Usuario:"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/txt_Udua"
+			android:gravity="center"
+			android:textColor="#ffffffff"
+			android:layout_marginLeft="40dp" />
+		<EditText
+			android:inputType="textMultiLine"
+			android:layout_width="251.5dp"
+			android:layout_height="match_parent"
+			android:id="@+id/edt_Usuario"
+			android:textColor="#ffffffff"
+			android:layout_marginRight="46.5dp"  />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="43dp"
+		android:id="@+id/linearLayout4"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:text="E-mail:"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView4"
+			android:gravity="center"
+			android:textColor="#ffffffff"
+			android:layout_marginLeft="40dp" />
+		<EditText
+			android:inputType="textMultiLine"
+			android:layout_width="256.5dp"
+			android:layout_height="match_parent"
+			android:id="@+id/edt_Email"
+			android:textColor="#ffffffff"
+			android:layout_marginRight="45.5dp"  />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="43dp"
+		android:id="@+id/linearLayout5"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:text="Contraseña:"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView5"
+			android:gravity="center"
+			android:textColor="#ffffffff"
+			android:layout_marginLeft="40dp" />
+		<EditText
+			android:inputType="textPassword"
+			android:layout_width="224.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/edt_Contraseña"
+			android:textColor="#ffffffff" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="43dp"
+		android:id="@+id/linearLayout6"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:foregroundGravity="center"
+		android:layout_gravity="center">
+		<Button
+			android:text="Registrar"
+			android:layout_width="110.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/btn_Registrar"
+			android:layout_marginRight="78.5dp"
+			android:background="@drawable/tregi" />
+		<Button
+			android:text="Regresar"
+			android:layout_width="110.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/btn_Regresar"
+			android:background="@drawable/tregi" />
+	</LinearLayout>
+</LinearLayout>

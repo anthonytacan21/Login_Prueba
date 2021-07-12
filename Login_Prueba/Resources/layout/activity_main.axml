@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:background="@drawable/flog"
+	>
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="439.5dp"
+		android:id="@+id/linearLayout1"
+		android:layout_centerInParent="true"
+		android:layout_marginRight="20.0dp">
+		<TextView
+			android:text="INICIAR SESION"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:textSize="25dp"
+			android:textColor="#ffffffff"
+			android:layout_marginBottom="14.5dp" />
+		<TextView
+			android:layout_width="61.0dp"
+			android:layout_height="63.0dp"
+			android:id="@+id/textView6"
+			android:background="@mipmap/persona"
+			android:layout_gravity="center" />
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="65.0dp"
+			android:id="@+id/linearLayout2"
+			android:layout_gravity="center">
+			<EditText
+				android:inputType="textMultiLine"
+				android:layout_width="248.5dp"
+				android:layout_height="40.0dp"
+				android:id="@+id/edt_Usuario"
+				android:layout_marginTop="10dp"
+				android:background="@android:drawable/edit_text"
+				android:layout_gravity="center"
+				android:hint="USUARIO" />
+		</LinearLayout>
+		<TextView
+			android:text=""
+			android:layout_width="61dp"
+			android:layout_height="61dp"
+			android:id="@+id/textView7"
+			android:background="@mipmap/candado"
+			android:layout_gravity="center" />
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:id="@+id/linearLayout3">
+			<EditText
+				android:inputType="textPassword"
+				android:layout_width="248.5dp"
+				android:layout_height="40.0dp"
+				android:id="@+id/edt_Contraseña"
+				android:layout_marginTop="10dp"
+				android:background="@android:drawable/edit_text"
+				android:layout_gravity="center"
+				android:hint="CONTRASEÑA" />
+		</LinearLayout>
+		<Button
+			android:text="Ingresar"
+			android:layout_width="120.0dp"
+			android:layout_height="47.5dp"
+			android:id="@+id/btn_Ingresar"
+			android:background="@drawable/botond"
+			android:layout_gravity="center"
+			android:gravity="center"/>
+		<Button
+			android:text="Registrar"
+			android:layout_width="120.0dp"
+			android:layout_height="47.5dp"
+			android:id="@+id/btn_Registrar"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:background="@drawable/botond" />
+		<TextView
+			android:text="INTENTOS:"
+			android:layout_width="97.0dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView8"
+			android:textStyle="bold"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_marginTop="13.5dp"
+			android:textColor="#ffffffff" />
+		<TextView
+			android:text=""
+			android:layout_width="136.5dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/txt_Intento"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:textColor="#ffffffff" />
+		</LinearLayout>
+</RelativeLayout>
