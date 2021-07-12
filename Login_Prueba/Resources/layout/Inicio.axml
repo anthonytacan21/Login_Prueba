@@ -6,7 +6,7 @@
 	android:layout_height="match_parent"
 	android:minWidth="25px"
 	android:minHeight="25px"
-	android:background="@drawable/fondosregistro">
+	android:background="@drawable/fondlogin">
 	<LinearLayout
 		android:orientation="vertical"
 		android:minWidth="25px"
